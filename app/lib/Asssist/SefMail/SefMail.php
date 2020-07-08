@@ -14,13 +14,11 @@
  use GuzzleHttp\Client;
 
  class SefMail {
-     protected $apiKey;
      protected $baseUrl;
      protected $client;
 
      public function __construct($apiKey) {
-         $this->apiKey = $apiKey;
-         $this->baseUrl = "https://api.mail.asss.ist/";
+         $this->baseUrl = "https://api.mail.asss.ist/?token=" . $apiKey;
          $this->newClient();
      }
 
