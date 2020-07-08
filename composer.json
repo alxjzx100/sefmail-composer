@@ -1,0 +1,33 @@
+{
+  "name": "asss-ist/sef-mail",
+  "description": "An easy to use PHP API for sending automized mails using the Guzzle library.",
+  "type": "library",
+  "keywords": [
+    "sefmail",
+    "api",
+    "sdk",
+    "mail",
+    "simple",
+    "fast",
+    "automized",
+    "mailer"
+  ],
+  "homepage": "https://mail.asss.ist/",
+  "license": "ISC",
+  "authors": [
+    {
+      "name": "Julian Loferer",
+      "email": "contact@jloferer.de",
+      "homepage": "http://asss.ist/",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Asssist\\": "app/lib/Asssist/"
+    }
+  }
+}
